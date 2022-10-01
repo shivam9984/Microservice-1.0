@@ -1,0 +1,18 @@
+spring:
+  profiles:
+     active: devlopment
+  application:
+    name: config-client
+  desc: Welcome to my application
+  list:
+     values: one,two,three
+
+
+  config:
+    import: optional:configserver:http://localhost:8888
+db:
+  connection: http:// connection-to-host
+  host: localhost
+  port: 2096
+
+
